@@ -1,1 +1,289 @@
 # DAL-test
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Introduction</a></li>
+<li><a href="#sec-2">2. Digital Arts Learning</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Intro</a>
+<ul>
+<li><a href="#sec-2-1-1">2.1.1. Statement of Purpose</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-2">2.2. How</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1. How is this to be accomplished?</a></li>
+<li><a href="#sec-2-2-2">2.2.2. Music and Sound</a></li>
+<li><a href="#sec-2-2-3">2.2.3. Image and Video</a></li>
+<li><a href="#sec-2-2-4">2.2.4. Text and Beyond</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-3">2.3. Conclusion</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Background</a>
+<ul>
+<li><a href="#sec-3-1">3.1. The Three Languages</a></li>
+<li><a href="#sec-3-2">3.2. Formal Language</a></li>
+<li><a href="#sec-3-3">3.3. Natural Language</a></li>
+<li><a href="#sec-3-4">3.4. Artistic Lanuage</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+# Introduction<a id="sec-1"></a>
+
+As the 21st century rolls along, the astute observer of trends in education notices that more and more people are interested in rethinking the ways we educate our children and ourselves. The motivations for this range from an urge to smash the system, or to "disrupt" existing models and parlay the results into profits, or to indoctrinate our children to be citizens of a brave, new world.
+
+In my case, I want to take what has always been true about how kids learn, how they feel and what they are naturally interested in, and simply update the means by which they can experience those same thoughts and emotions.
+
+Specifically, I propose an approach I call <span class="underline">Digital Arts Learning</span>
+that tailors education to children who, for one reason or another, are
+drawn to unconventional approaches to schooling. In many cases, these
+are children who are interested in the arts, in music or performance,
+but they could also just be children who hate math and science but
+love the computer games that math and science make possible. Such
+paradoxes are nothing new&#x2013;my own high school experience can testify
+to that.
+
+What is new, however, is what we all know about the world such people are heading out into. It is an increasingly technologized world, with few places left untouched by computers and the internet. It is a world where the acronym "STEM" is pervasive. A world without record stores and precious few bookstores, with ever more means for self-expression at hand, and an ever-harder path to surviving on it.
+
+I come at this world from the perspective of both an artist and educator. My formal training is primarily as a musician. With a Bachelor of Music in Orchestral Performance and a Master of Fine Art in Performance and Interactive Media Arts, I am lucky to have been exposed to both the old, conservatory model and to new, highly technological approaches. But in addition to my career as an artist, I have, since 2000, maintained a concurrent career as a private tutor and standarized test prep expert, teaching math, grammar, and critical reading for tests such as the GRE, GMAT, ACT, various high school entrance exams, and the SAT I and II. Working with hundreds of students ranging in age from 7 to 57 has honed my ability to communicate with just about anybody who has to solve a problem.
+
+Now, it has always been my dream to find the common ground between
+these worlds, these two vocations. With a nod to philosopher Karl
+Popper, who said, "All life is problem-solving," I can see that
+the expression "creative problem-solving" captures the essential
+connection between the disparate parts of what I do. Here's an outline
+of one approach to bringing it all together.
+
+# Digital Arts Learning<a id="sec-2"></a>
+
+## Intro<a id="sec-2-1"></a>
+
+### Statement of Purpose<a id="sec-2-1-1"></a>
+
+So, most succinctly, our purpose is to rethink education in the arts
+and humanities, perhaps even education in general.
+
+How?
+
+By reframing our studies so that, as much as possible, the work we do
+always takes place with an eye to the computer, taking advantage of
+how it can help us solve problems in any domain we can think of. And
+since the arts are increasingly being left out of the picture in a
+world in thrall to science, technology, engineering and mathematics,
+I suggest that it is critical that we reorganize this model so that
+arts education is restored to its proper place before it
+is too late.
+
+In order to really do this, to bring the arts into the technological
+fold, we will have to learn about computer programming. Whether we all
+end up becoming professional programmers&#x2013;at least as we conceive of
+them today&#x2013;is another matter, but the odds are that, over time, the
+distinction between programmer and non-programmer will become fainter.
+
+## How<a id="sec-2-2"></a>
+
+### How is this to be accomplished?<a id="sec-2-2-1"></a>
+
+We begin simply enough: by looking at the kinds of software that might be of interest to us as creators. This grounds us in a certain pragmatic approach: if we can make something interesting, fun or beautiful out of it, we'll pursue it.
+
+What are the things that are most immediately available to us? Free
+software, which is sometimes better known as "open source software."
+If we want to learn how to do interesting, fun and beautiful things
+with computers, we need to have available a wide range of options for
+what we might eventually like to do. Having access to both the process
+and the code behind the software we are using is crucial to becoming
+better users of that software.
+
+Now, there may be some tradeoffs here, namely, cost vs. convenience.
+There are different costs for any choice in life we might make. When
+we opt for an investment of time or effort over a monetary investment,
+we may be missing out on certain short-term conveniences. But
+preferring to use free software when possible is a strategic decision,
+motivated by the desire to gain a deeper understanding of and
+proficiency in the way more and more programmers work today, which is
+open source.
+
+And since we are most concerned with art-making, the software we are
+interested in will roughly fall into one of the following three categories.
+
+### Music and Sound<a id="sec-2-2-2"></a>
+
+How do we make sound with our computers, and how can they help us
+compose music, too?
+
+To facilitate our music-making, we will have to learn a little bit about
+how computers represent sound, as well as how music works and is
+organized, which is precisely the goal of music theory.
+
+Software we will use:
+
+-   Pure Data
+-   Audacity
+-   MuseScore
+-   Supercollider
+-   PWGL, GRACE, and other Lisp-based algorithmic composition tools
+
+### Image and Video<a id="sec-2-2-3"></a>
+
+While computers are not as easy to draw with as a pencil and paper, with a little bit of effort we can get the computer to display amazing things, images that would take ages to draw by hand.
+
+Additionally, computers are great for making images MOVE! Whether
+making animations or video, we still begin with the idea of how does a
+computer display a single image, since a moving image is really just
+made up of many consecutive images, or frames.
+
+Software we will use:
+
+-   Processing
+-   GIMP
+-   Blender
+-   Netlogo
+
+### Text and Beyond<a id="sec-2-2-4"></a>
+
+What else can we do with a computer that we might ordinarily do with a
+paper and pencil? Well, almost everybody today has seen or written an
+email or a text message, but how can we use a computer to do more than
+that? We will have to draw on the field of natural language processing
+to answer one of the most interesting questions, one that leads into
+the realm of artificial intelligence: what can a computer can tell us
+about some piece of text that we give it?
+
+And perhaps most significantly, how can we put all of these things
+together&#x2013;music, image and text&#x2013;in some form that we can share with
+the world? For example, how can we put our work on the web? How can we
+get other people to use it and contribute to make our work better? And
+what work is already out there that we would be interested in using?
+
+Because this category is the most broadly defined and forms the
+pathway to the larger world of computing, there is a huge range to the
+concepts that are involved. Seek to unify the work we do with
+computers will involve at least six major topics that are central to
+the undertaking of learning to program.
+
+-   operating systems and shell environments
+-   programming languages and libraries
+-   text editors
+-   web browsers
+-   databases
+-   version control systems
+
+## Conclusion<a id="sec-2-3"></a>
+
+To fully explain the method by which these disparate elements are
+brought together in practice is beyond the scope of this short
+introduction. 
+
+However, the basic mechanism behind it all can be summed up in one
+phrase: patterns and rules.
+
+Sounds are made up of frequencies that can be represented numerically,
+and making music involves composing pleasing ratios and proportions
+with these numbers. Digital graphics are just vast collections of x-y
+coordinates on a screen with corresponding color values, all collected
+into matrices on which we impose geometrical constructs. Meaningful
+English sentences are constructed out of the rules of grammar and syntax.
+
+All the above involve regularities that a computer is perfectly
+disposed to manipulate. It is just our job to learn about the patterns
+inherent in the medium and then learn how to manipulate them using a
+computer. But it is the job of a lifetime.
+
+For more information, to see a sample syllabus, or to learn about *The
+Three Languages*, the theoretical framework behind this approach, please
+send me an email at wforzo@gmail.com
+
+# Background<a id="sec-3"></a>
+
+## The Three Languages<a id="sec-3-1"></a>
+
+All of this foreground work on our computers is nevertheless
+predicated on some deeper awareness. What is that? 
+
+The awareness that, because we rely on our brains and bodies and the
+computers that are the extensions of them, all the above forms of art
+and creativity and making are connected. There is even a science that
+studies the interconnections between different discplines&#x2013;complexity
+studies&#x2013;that we take inspiration from.
+
+We must acknowledge, however, that art-making is not a science. But
+there are many possible ways to investigate how art-making seems to
+follow certain rules or conventions that, when we have a computer at
+our disposal to help formalize them, blurs the distinction between
+"hard science" and "vague art."
+
+In order to figure out how to do all of the above, there are several
+things we are going to have to learn about; eventually we may even
+have to go quite deep in our study, well beyond our immediate needs of
+getting something basic to "just work." Because we are going to use
+the computer to try to play with the above forms, we will be
+interested to see how they are related and how they are different by
+looking at how a computer works with them.
+
+## Formal Language<a id="sec-3-2"></a>
+
+What is "formal" language? "Thee" and "thou" and "Wouldst thou be so
+kind&#x2026;?" Well, not exactly, though sometimes you hear people use the
+word "formal" to refer to talking like that.
+
+Instead, we are using "formal" here to mean following certain rules,
+rules that are designed not to make people feel less casual but to
+allow us to reason about things in a very special, rigorous way.
+
+While this term, "formal language", has a very technical meaning and a
+long, fascinating history within the field of mathematics and
+philosophy, we use it here to group together math and computer
+languages, both of which rely on a certain kind of logical thinking.
+
+For those who are really interested in this, there are many
+interesting and profound applications worth learning about. For our
+purposes, we are mostly interested in how we can string together
+numbers, letters and other symbols in a way that can get a computer to
+do things that are meaningful to us as curious, creative people.
+
+## Natural Language<a id="sec-3-3"></a>
+
+"Natural language" itself sounds a little formal, when it really just
+refers to something we are all very familiar with: English!
+
+To be exact, not *just* English, but any kind of spoken or written
+language people use to communicate. They are "natural" in this sense,
+that they just seem to arise naturally for humans who are exposed to
+them. 
+
+Linguistics is the formal study of natural language, but, again, we
+are not necessarily interested in becoming practicing linguists.
+Instead, we will use "natural language" as the term for studying how
+we use natural language to express meaning&#x2013;thoughts, and feelings and
+ideas about the world.
+
+## Artistic Lanuage<a id="sec-3-4"></a>
+
+Now, whereas "formal language" and "natural language" have recognized,
+technical meanings, "artistic language" is perhaps more vague. This is
+appropriate, considering that artists are not usually interested in
+writing proofs or designing rule-based grammars, as computer
+scientists and linguists often learn to do. But nonetheless, an artist
+uses her medium as a kind of language, where chords and colors and
+movements act as the vocabulary they use to communicate their ideas.
+
+But aside from this more metaphorical use of the word "language",
+artists also call on the other two languages when it comes time to
+reason about their work. Whenever they refer to concepts and ideas
+that are specific to their art forms, they will rely on special uses
+of natural language. There are even sometimes overlaps between
+different disciplines: for example, "phrase" is an especially
+important word, as it used by dancers, musicians and writers.
+
+And most importantly for us, when using artists turn to computers to
+help them with their work, they bring all of the above together: they
+have to use natural language concepts to help figure out how to
+express their artistic language in the formal language that a computer
+uses to make its "magic."
