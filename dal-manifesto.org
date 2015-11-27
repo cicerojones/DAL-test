@@ -1,5 +1,21 @@
 * Introduction
-As the 21st century rolls along, the astute observer of trends in education notices that more and more people are interested in rethinking the ways we educate our children and ourselves. The motivations for this range from an urge to smash the system, or to "disrupt" existing models and parlay the results into profits, or to indoctrinate our children to be citizens of a brave, new world.
+As a parent of 21st Century child, I can attest to a concern that many
+of us share: how will technology shape who are children are? While
+virtually no corner of our lives remains unaffected by the advances of
+the Information Age, of particular interest to parents is the role
+that computers will come to play in education.
+
+
+Anyone paying attention to current debates about the state of
+education in our country could hardly miss the increasing emphasis on
+STEM (that is, science; technology; engineering; and math) discplines
+in pre-college education, typically at the expense of the arts and
+humanities, which are ever-more consigned to the margins of extra-curricular. And as more and more
+"ed-tech" companies spring up as part of the effort to rethink or
+"disrupt" the ways we educate our children (while of course turning a
+profit!), it becomes critical to to "disrupt" existing models and
+parlay the results into profits, or to indoctrinate our children to be
+citizens of a brave, new world.
 
 In my case, I want to take what has always been true about how kids learn, how they feel and what they are naturally interested in, and simply update the means by which they can experience those same thoughts and emotions.
 

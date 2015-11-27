@@ -3,3 +3,142 @@ where are some examples of the org to pdf exported pdfs of this
 manifesto that serve as models of what I would send?
 
 The exports appear to have been deleted. Do over.
+
+* captures
+** articulate purpose of two cicerovs and dal
+"The purpose of DAL.com is to____"
+** web domains
+digitalartslearning
+creativecodersCT
+creativecodersNY
+cicerovsemacs
+thisbus
+cicerojones
+ciceronian
+t3l
+thethreelanguages
+stemusic
+stemmuse
+musicalminds
+artencode
+
+https://www.namecheap.com
+** outcomes
+1. I want people to give me money
+2. IN echange for doing something seems interest and rewarding to
+   /me/. This could be for teaching their kid "how to code?" Or
+   something more indefinable. "How to...?" Or something more narrow:
+   "how to build a website/use processing/python."
+** research
+*** boutique lessons--cottage classes
+** community
+*** method and apparatus
+*** code words (RC)
+** archival work
+*** PIMA symposium presentation
+** master list of things considered DAL-oriented
+- netlogo
+- processing
+- creative coding links
+
+compare this list against the current Prolegomena
+** to contribute to Prolegomena using git
+you would need to know how to
+/clone an existing repository to work on it/
+
+Which would require
+
+- git
+- homebrew
+- bash/CLI skills
+- github account
+- command line tools for mac
+- awareness of projects to work on
+- awareness of protocols and conventions
+- some skill within the domain covered by an existing code base
+- a sense of what /you/ can uniquely contribute
+- can use github pull request interface
+
+As a result you might seek to develop an understanding of
+/general git collaborative workflows/
+
+and ultimately you might want to
+
+/share your work for others to contribute to/
+* exisiting projects
+** artist statement choose your own adventure
+[[file:~/Documents/starting-directory/projects/T3L-programming/natural%20language%20related/Python/my%20code/nlp%20projects/fall%202013%20project/][
+file:~/Documents/starting-directory/projects/T3L-programming/natural
+language related/Python/my code/nlp projects/fall 2013 project/]]
+
+http://500letters.org/form_15.php
+** Finnegans Wake
+[[file:~/Documents/starting-directory/projects/T3L-programming/natural%20language%20related/Python/my%20code/nlp%20projects/Finnegans%20NLTK%20library/][file:~/Documents/starting-directory/projects/T3L-programming/natural
+language related/Python/my code/nlp projects/Finnegans NLTK library/]]
+* T3L research
+[[file:~/Documents/starting-directory/projects/T3L-programming/][file:~/Documents/starting-directory/projects/T3L-programming/]]
+* current state of affairs
+I need to take all the paper brainstorming and online idea generation
+and transfer it here.
+* pima symposium--link in writing.org
+[[file:~/org/org-directory/writings.org::*pima%20symposium][pima symposium]]
+* tags for wordpress sites
+** Journal
+CANCELLED 	HOLD 	NOTE 	REFILE
+SATdb 	alias 	art 	babel
+bash 	business 	cljs 	coderscanon
+countdown 	creativecoding 	dal 	django
+drill 	elisp 	emacs 	git
+gtd 	habit 	home 	journal
+keybinding 	latex 	lisp 	magit
+music 	mysql 	nesting 	nlp
+nltk 	org 	passwords 	past
+pelican 	processing 	python 	refile
+rr 	sclang 	sql 	textreading
+tkinter 	virtualenv 	webdev 	woes
+wordpress 	work 	writing 	xx
+
+** codejournal (codjournal)
+CANCELLED 	HOLD 	REFILE 	agenda 	art 	bash
+cat 	chrome 	cider 	clojure 	coderscanon 	dal
+dired 	emacs 	find 	goto 	gtd 	habit
+home 	journal 	keybinding 	kmacros 	mode 	nltk
+org 	overtone 	paredit 	pedagogy 	pomodoro 	processing
+python 	refile 	registers 	safari 	speedmode 	time
+usernames 	virtualenv 	wordpress 	work 	workgroups
+writing
+
+** tips
+CANCELLED 	HOLD 	NOTE 	PHP 	REFILE 	SATdb
+SQL 	agenda 	apache 	art 	audacity 	bash
+bookmarks 	brace 	calendar 	cdlatex 	centering 	cider
+clocking 	cm 	comint 	company 	diagrams 	dired
+display 	docview 	elisp 	eshell 	expansion 	filtering
+find 	font 	git 	goto 	habit 	habits
+hidden 	home 	ibuffer 	info 	java 	kmacro
+latex 	logging 	mac 	macos 	man 	occur
+org 	paredit 	properties 	python 	refile 	regex
+registers 	satdb 	slime 	spacing 	spreadsheet 	sql
+table 	timer 	touch 	venv 	visible 	wdired
+window 	windows 	woman 	work
+
+** notes
+
+CANCELLED 	HOLD 	NOTE 	PULLupstream
+REFILE 	SATdb 	annie_db 	art
+babel 	clj 	coderscanon 	django
+formatting_text 	fundamentals 	git 	habit
+home 	lisp 	nltk 	overtone
+password 	php 	profiling 	projecteuler
+python 	refile 	rr 	satdb
+sclang 	sql 	webdev 	wordpress
+work 	write_to_disk
+
+** writing
+
+CANCELLED 	HOLD 	HackerSchool 	REFILE 	art
+conceptual 	creative 	habit 	home 	notes
+refile 	reflection 	review 	slideset1 	slideset2
+slideset3 	slideset4 	slideset5 	track1 	track10
+track2 	track3 	track4 	track5 	track6
+track7 	track8 	track9 	work 	writing
