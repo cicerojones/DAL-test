@@ -1,0 +1,32 @@
+Documentation
+
+This poem is a piece from a series called Cyberpunk Prophecies. The poems were created using software called prosaic (https://github.com/nathanielksmith/prosaic).
+
+For this series specifically I acquired digital versions of 31 cyberpunk novels, created a tagged corpus of phrases using prosaic, and then wrote poem templates and generated pieces. I cleaned up, cobbled together, and augmented several runs of prosaic for each piece. Every poem in the series is a collaboration between the original novel authors, an algorithm, and myself (a human poet).
+
+A sample poem template used in creating one of the cyberpunk pieces might look like this in JSON:
+
+[{"keyword":"descend"},
+ {"syllables": 8},
+ {"keyword":"darkness"},
+ {"syllables": 4},
+ {"fuzzy": "darkness"},
+ {"fuzzy": "disgust"},
+ {"fuzzy": "shame"},
+ {"syllables":6},
+ {"syllables":6},
+ {"keyword": "return"},
+ {"fuzzy": "ascent"}
+]
+
+A full interaction with prosaic might look like this:
+
+hy __init__.hy load text0.txt db_name
+hy __init__.hy load text1.txt db_name
+hy __init__.hy load text2.txt db_name
+
+hy __init__.hy create templates/haiku.json db_name
+
+prosaic would then do its best to produce a haiku using the cut-up phrases of text0, text1 and text2 as stored in db_name.
+
+prosaic is designed to be able to pull works of novelty and beauty out of large quantities of prose. In terms of cheaply available resources, the amount of prose available on the internet trumps all others. prosaic is a tool to help explore and make sense of the overwhelming repository of text we find ourselves immersed in online every day.

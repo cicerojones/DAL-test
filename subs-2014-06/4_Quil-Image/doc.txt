@@ -1,0 +1,57 @@
+My favorite tool for exploring visual artistic ideas is Quil.
+
+You can find out all about it at https://github.com/quil/quil but once I had everything set up, all I had to do was:
+
+1. Create a new project:
+
+lein new methodandapparatus
+
+2. Add the following line to the new project's config file:
+
+[quil "2.1.0"]
+
+3. Update the project's libraries:
+
+lein deps
+
+4. Start a prompt:
+
+lein repl
+
+5. Paste in some code:
+
+(ns methodandapparatus.core
+  (:require [quil.core :as q]))
+
+(defn setup []
+  (q/smooth)
+  (q/background 255)
+  (q/frame-rate 480)
+  (q/no-fill)
+  (q/stroke 0 0 0 10))
+
+(defn draw []
+  (let [diameter (q/random 100)]
+    (q/ellipse (q/random 1920) (q/random 1080) diameter diameter)))
+
+(q/defsketch example
+  :features [:present]
+  :size [1920 1080]
+  :setup setup
+  :draw draw)
+
+
+And like any dastardly plan where I did all kinds of things I haven't mentioned that either pulled from my 30 years of playing computer, or made me weep openly in public, or both, it all worked as planned, so I took a screenshot after this program had ran for a while and here you have it.
+
+Quil is free, and there is a mailing list and a helpful wiki on the Github site. It is based on the Processing graphics language ecosystem, so if you are an absolute beginner in graphics and art and code and such, I'd highly recommend just messing about with Processing.
+
+The reason why I like Quil is that I use the Clojure programming language for all kinds of other projects in my personal and professional life, and I've already done all of the aforementioned weeping with it all so I'm usually ready to go.
+
+The greater Processing community is very approachable, and serves as a great introduction to the world of creative code.
+
+If you're interested in making sounds and freaking out and having to turn off your computer in a panic when it starts squealing uncontrollably and you don't know how to stop it, I also recommend Overtone http://overtone.github.io/ ...
+
+Have fun!!
+
+Thomas
+@th0ma5 

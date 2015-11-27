@@ -1,0 +1,38 @@
+Hello and welcome to Issue 1 of Method & Apparatus!
+
+How to "read" this zine:
+
+1. Use a terminal, a web browser, or a file browser to navigate to the
+directory on your computer.  Since you're reading this text, you've
+probably done that successfully!
+
+2. Navigate to the subfolders and explore what's in them! If there's a
+.html or .txt file, try reading that first. If viewing or interacting with
+the content is more complicated than that, those files will contain
+further instructions.
+
+Some of the projects have executables that are too large to include
+directly in this distribution. Their instructions contain download links to
+a Google Drive folder where you can find the application.
+
+3. If you have any problems running or accessing the content in this issue,
+please contact methodandapparatus@gmail.com so we can put you in touch with
+the author!
+
+Table of Contents
+
+1 - Nathaniel Smith - 3 digital poems (poetry made with Prosaic)
+2 - Tara Copplestone - Cliffords Tower (interactive architecture made with Unity)
+3 - Jason Reed - Weekend Trains (tune made with Beepbox)
+4 - Thomas Winningham - untitled (image made with Quil) 
+5 - Jamie Perconti - Bursts (tune made with Beepbox)
+6 - Katherine Ye - syntax (text processing program made with Haskell)
+7 - Chris Martens - lovely garden (game made with LOVE2D)
+
+Zine compilation: Chris Martens 
+Website: Lea Albaugh
+Linode hosting: Rob Simmons
+
+~~~~~~~~~~~~~~~~~~~
+<3 <3 <3 <3 <3 <3
+~~~~~~~~~~~~~~~~~~~

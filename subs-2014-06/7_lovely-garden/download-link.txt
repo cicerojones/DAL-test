@@ -1,0 +1,8 @@
+Download executables at:
+
+https://drive.google.com/folderview?id=0B1HJXoh3BOUba1hodUp2VEx6SFU&usp=sharing
+
+32-bit Windows: LovelyGardenWin32.zip
+64-bit Windows: LovelyGardenWin64.zip
+Mac OS X: LovelyGarden.osx.zip
+Linux: LovelyGarden.love

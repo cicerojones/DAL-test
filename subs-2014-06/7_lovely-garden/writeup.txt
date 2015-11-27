@@ -1,0 +1,79 @@
+
+==~~ lovely garden sim ~~==
+
+This is a little tile automata game thing, and an attempt to learn
+LOVE2D/Lua!
+
+Before I knew lua indexed arrays from 1 I made my map like this
+
+  map =
+  {{2,2,2,0,0,0,0,0,0,0,0,0,2,2,2},
+   {2,0,0,0,0,0,0,0,0,0,0,0,0,0,2},
+   {0,0,0,0,4,4,4,0,0,0,0,0,0,0,0},
+   {0,3,3,0,4,4,4,3,3,3,3,3,3,0,0},
+   {2,3,3,0,0,0,3,3,3,3,3,3,3,3,2},
+   {2,0,0,0,0,0,3,3,3,3,3,1,1,1,2},
+   {2,0,0,0,0,0,3,3,3,3,3,1,1,1,2},
+   {2,0,0,0,0,0,0,0,0,0,0,1,1,1,2},
+   {2,0,0,0,0,0,0,0,0,0,0,1,1,1,2},
+   {2,0,0,0,0,0,0,0,0,0,0,1,1,1,2},
+   {2,2,2,1,1,1,0,0,0,0,0,0,0,2,2}
+  }
+
+And my tile array like this
+
+  tiles = {soil, grass, concrete, cracked, water, seed, flower, flower_sad}
+
+And then so much code came to do various adjusting for off-by-one errors that I
+just kept it that way, and made myself a little table:
+
+  -- map (0-indexed):
+  --        0     1       2         3       4       5     6       7
+  -- tiles (1-indexed):
+  --        1     2       3         4       5       6     7       8
+
+I never bothered making constants to stand for these elements so a lot of code
+looks like
+
+  -- water + cracked => soil
+  if map[y][x] == 3 then
+    if element == 4 then map[y][x] = 0 end
+    if element == 2 then map[y][x] = 2 end
+  end
+  -- cracked + water => soil
+  if map[y][x] == 4 then
+    if element == 3 then map[y][x] = 0 end
+  end
+
+lua is a very cute language. I don't know why I had the impression it was
+esoteric or strange; it's pretty much the most bog-standard imperative language
+I can think of. I did learn that arrays are not values though; their vars are
+pointers. That's a little bit tricksy.
+
+I wrote the song in beepbox while I was feeling nostalgic for small string
+ensembles, and I wrote it as kind of a viola/cello duet.
+
+The mechanic of the game is a variant on some ideas that have been floating
+around in my head since I was a tiny child and played the second Legend of
+Kyrandia game with the potion-making cauldron. I'm fascinated my the
+multitude of ways that you can get just a small set of elements to interact
+and do weird stuff.
+
+The first iteration was basically an exercise in frustration. The flowers
+wouldn't stay alive and you had to constantly tend to them.
+
+Then I made grass appear over soil randomly sometimes, and flowers appear
+over grass randomly sometimes, and that was the OPPOSITE experience:
+everything was overgrowing and chaotic and there was no way to tame it. So
+maybe not really the opposite; it still doesn't allow the gardener any
+sense of control.
+
+So I took out the random-grass-spawning thing and also added bugs that eat
+flowers.
+
+I dunno, it still doesn't feel to me anything like what *actual* gardening
+feels like: a half hour or so of hard work followed by a long period of
+doing nothing. Requires a more careful balance between player agency and
+world autonomy. It's interesting to me that that's so difficult to tune
+precisely.
+

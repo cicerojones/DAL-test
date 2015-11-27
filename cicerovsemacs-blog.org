@@ -1,0 +1,118 @@
+* Pages
+* Posts
+* Tags
+* Categories
+* pasted xml content
+** 
+<content:encoded><![CDATA[Trained as a classical French Horn player,
+Will Orzo has worked as an instrumentalist, composer, music director
+and "mover" in performances at Jacobs Pillow Dance Festival, UK
+National Review of Live Art, SXSW Music Festival, and the
+International Computer Music Conference. He is a founding member of
+the long-running, Brooklyn-based roots music collective, The Woes, and
+holds a Bachelor of Music degree from Queens College CUNY and an MFA
+in Performance and Interactive Media Arts from Brooklyn College CUNY.
+He most recently finished a stint at the Recurse Center, an NYC
+retreat for programmer’s from around the world.]]>
+** 
+<content:encoded><![CDATA[I recently discovered an essay I had written in high school that must've been for some in-class assignment. In what was probably a rush/evasion tactic, I wrote towards the end of the essay that something was too obvious to be worth going into. My teacher left a note in the margin that I only now can really appreciate the genius of: "Pretend I'm stupid."
+
+On this my first day of Hacker School, as I write from home with a crystal blue, rather-too-arctic morning in my peripheral vision, I can think of no better motto for one about to embark on the pedagogical situation.
+
+If music be the food of love, then let there be dancing in the
+streets, drinking in the saloons, and debugging in the REPL!]]>
+** 
+<content:encoded><![CDATA['Miseries' has never seemed so few letters away from 'miniseries.'
+
+Such is the result of that persistent enveloping fog of sleeplessness, which, <i>pace</i> Anthony Burgess, plagued our minds this morning. The peculiar misery of existing between states–longing for one or the other, but not this miserable in-between sleepfulness and wakefulness. Dawn's bandages of light poultice nothing if one desires darkness of mind and day.
+
+[Transitioning like a news anchor reporting on the alternately grisly and jejune…] In other news, powerful first day of Hacker School. A room poised between relaxation and intensity, like a ready muscle. How long can I keep it up? Look up the etymology of 'efface,' when you get the chance.
+
+I probably need to start writing these blog entries at other times of
+the day, not when I resign myself to the level of sleep deprivation I
+will go about this day with. Something more to be said about
+programming and thought, between Emacs and Cicero. Between the devil
+and the deep blue sea of 455 Broadway.]]>
+** 
+<content:encoded><![CDATA[What is that special quality possessed by the hours of say, 2:30 and 4 and 5:30 (all ante meridian here)? It is has gotten to the point that after I look at each of these times from bed I can't actually be sure that I was even asleep during the in between times. The line between asleep/awake is so blurred (if you are thinking about a logic/math puzzle/problem, are you asleep?) that I am about to give up thinking in these terms, or even trying to gauge whether it was a sufficient amount and quality of sleep to begin the day. I will resolve this though: I will not start my day before 4am.
+
+I need to post the (approximately 6am?) writing I did in MobileOrg
+capture mode about the need to work on programming away from a screen,
+away from an editor. At least I can have something to show for the
+(presumed) bags under my eyes.]]>
+** 
+<content:encoded><![CDATA[Intercessions…have interceded.
+
+Let's just say that I have found myself with an even more pressing need for white noise in my life. At any given moment, white noise is pouring forth from any of several speakers, all playing any of several white noise (really, much of the time it is brown noise, or some mixture of various filtered white noises) "tracks."
+
+I've even gone so far as to make <a href="http://puredata.info">Pure Data patches</a> that allow me to craft the particular qualities I want from my noise. To free up the computer and play these from a phone seemed wise, and quite within the realm of possibility, given the state of Pure Data development these days. But as always, there are potentially confusing moments when art, life and technology meet.
+
+And so here we are, over a year since the last post, reporting on a simple interaction between music and software.
+
+<hr />
+
+&nbsp;
+
+<a href="http://droidparty.net">Droidparty is awesome.</a> It allows you to import Pd patches onto your phone and run them from there. You can even interact with them using a reasonably large number of interface elements (the developer mentions "Numberbox, Sliders, Toggle, Comment, Bang, and Canvas," as well as a host of other options available via the author's own Abstractions download).
+
+Now, unless I'm missing something there's one fact that apparently needs inferring. The instructions, while seeming straightforward--as so many instructions do--don't actually mention the (apparently self-evident) fact that, <em>"Oh yeah, I need to install PdDroidParty on my actual phone"</em>
+
+I.e., you can follow all of the instructions about creating cool patches etc. and easily fail to come up with a way to run them on your Android device. Whoops.
+
+So, a revised set of steps:
+
+<strong>1. Download the .apk file and copy it to your phone.</strong>
+
+This of course requires you to have a way to do such copying. After a brief (and irritating) fling with Samsung Kies, I reverted to using <a href="https://www.android.com/intl/en_us/filetransfer/">Android File Transfer</a>, which feels much more straightforward and reliable. I just connect my phone to my computer via USB and I can cleanly drag-and-drop the .apk file I downloaded from the PdDroidParty site straight into what appears to be my home directory.
+
+<strong>2. The simplest next thing to do is to create whatever cool patch stuff you want <em> and just name it droidparty_main</em></strong>
+
+This is basically stated in the instructions, but it's worth repeating: the file that you are relying on for your interaction will be named droidparty_main.pd. I.e., this means that if you want to make 10 different patches to run on your phone, they all will need to be named the same thing. But how to differentiate between them? Ah good question.
+
+<strong>3. Call the directory/folder that you are storing your patch in what name you would ordinarily call your patch.</strong>
+
+This step is not obvious either. At the very end of step 5 of 6, the developer states:
+<blockquote>For example your directory called MyPdPatch containing a patch called droidparty_main.pd could be copied to /sdcard/PdDroidParty/MyPdPatch on your device.</blockquote>
+i.e. from the beginning, you want to be calling your directory the name you would ordinarily call your patch.
+
+<strong>4. Create a directory named PdDroidParty on your phone</strong>
+
+This again is probably most easily accomplished using something like Android File Transfer, which has an option 'New Folder" in the <strong>'File'</strong> drop-down menu.
+
+<strong>5. Copy the folder with whatever cutesy name you came up with into this PdDroidParty directory</strong>
+
+You're almost there. Aren't you glad you downloaded the .apk file to your phone at the beginning? How else would you…
+
+<strong> </strong>
+<blockquote>6. Run PdDroidParty and you will find an entry named after your subdirectory. Tap it to load your patch.</blockquote>
+&nbsp;
+
+Again, not obvious that, duh, in order to run your patch, you need to run PdDroidParty, which means that you need to have something called PdDroidParty on your phone. Right. Mr. Obvious to the rescue. Get that .apk file onto your phone somehow; copying the downloaded file from your computer to your phone via Android File Transfer is probably your best bet.
+
+When you run PdDroidParty, it will gather up the relevant files that you have stored in the PdDroidParty directory and provide you with various names to choose from--whatever names you've given to the folders containing your patches. And to repeat, these folders must at least have a droidparty_main.pd file in them.
+
+<hr />
+
+If you begin poking around the demo patches that are also available for download, you see that the droidparty_main.pd file can really just display GUI elements. These GUI elements can then send whatever data you are providing them in your interaction to other subpatch abstractions or indeed even other patches in the same directory.
+
+In what amounts to another sort of cryptic aside (for a programming newcomer), the author mentions something that relates to what I've loosely described above:
+<blockquote>This is good patch design practice anyway as it is basically a model-view-controller methodology.</blockquote>
+Looking at how these demos break up the job of creating a unified
+music software application is perhaps a good topic for another post.
+In the meantime, hope my clarification of the install process helps
+someone else.]]>
+** 
+<content:encoded><![CDATA[This site aims to reflect the experience of those working at the intersection of the arts and technology, with blog entries, essays and tutorials on a variety of topics, including:
+<ul>
+	<li>creative coding with open source tool such as Pure Data, Processing, Supercollider, GIMP and more</li>
+	<li>learning how to manage one's own creative work using classic tools like emacs and org-mode</li>
+	<li>the condition of being an artist carving out a path in a world in thrall to data</li>
+	<li>the role of art and technology--specifically, computer programming--in education</li>
+	<li>developing a deeper understanding of the more sophisticated aspects of digital art-making, primarily working with the raw materials of programming  (using programming languages such as Python, Lisp and more)</li>
+	<li>some of the finer points of algorithmic composition and computational music theory (a particular area of expertise)</li>
+	<li>etc.</li>
+</ul>
+Please see <a
+href="https://cicerovsemacs.wordpress.com/blog/">BLOG</a> for more
+thoughts on these topics.]]>
+
