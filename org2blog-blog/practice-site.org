@@ -1,0 +1,118 @@
+#+DATE: [2015-12-24 Thu 01:53]
+#+TITLE: This Title Suffices?
+* One Page or Post or Site about Org2blogging from emacs
+** This is the first headline of an entry about bloggin from orgmode
+   :PROPERTIES:
+   :ID:       o2b:C94D0809-91BD-4353-805C-7D74C71877B9
+   :TITLE: A Title
+   :END:
+<2015-12-24 Thu>
+Let's assume you already have some kind of org2blog installation and
+confiugration successfully going on behind the scenes. How would you
+use it all?
+*** What happens when you login?
+
+- org2blog/login
+
+(If you have all the right credentials and configurations setup in
+both the .netrc and your putative orgmode-config.el file, you might
+get, after a bunch of networking message noise, a successful "logged
+in" reponse).
+
+Note that there are two piece of code that are overworking one
+another.
+
+This is the original, but it most likely being over written by the
+more complicated thing that follows it: (NB leaving out the source
+code to as part of debugging).
+
+
+
+
+
+OK. Whatever all that is about. Definitely copied in from the github
+org2blog wiki. And be aware that getting your srcblocks accepted is
+non-trivial. I received a complaint about org-babel-exp no liking the
+elisp. Or something. Or was it that get-file-properties did not like
+some char-or-string-p argument.
+
+Note that this is what it says there about logging in:
+
+#+BEGIN_QUOTE
+This function ask you for the name of one of the blogs you have
+configured in the org2blog/wp-blog-alist variable described above and
+will ask for your password. The counterpart of this function is M-x
+org2blog/wp-logout, which will log you out of the active blog.
+#+END_QUOTE
+
+Note, you password will not be asked for under the right circumstance,
+and nor will you be handed a list of blogs if you simply have one
+listed.
+
+(Now one legitmate question when running your own emacs version of
+this stuff is, if you have done any monkey business with your packages
+and loading and configuring, you may not be entirely certain what
+org2blog code is being run from where. I have two versions installed
+in various locations. The most recent having been autoupdated in
+Decemer 2015 from the good folks at Elpa. Should you instead be using
+a version from git?).
+
+*** What happens when you...read the rest of the documentation?
+You realize that there is quite a lot explained, or at least
+mentioned. But this of course if different from having tried it out
+yourself or from seeing demonstrations of it. It's all a little
+abstract and potentially cool but also potentially vague sounding.
+
+I can *write a new post* using ~wp-new-entry~
+I can *use a post template* ~wp-buffer-template~ and
+~wp-buffer-format-function~
+
+This would allow you to insert TITLE: and DATE: strings into a
+template.
+
+I can *update an existing post*
+
+This is the official word on that
+
+#+BEGIN_QUOTE
+To update a blog post, you can simply edit the content of the org file
+and republish using org2blog. The POSTID saved in the file, ensures
+that the same blog post is updated, and a new post is not made.
+#+END_QUOTE
+
+I can *post existing org-files* provided I give them a bunch of
+Properties as a header
+
+- title
+- options
+- tags
+- category
+- description
+- date
+
+additionally, there appears to be something special about
+- postid
+
+if you are going to be editing an existing post.
+
+Lastly, and most importantly for our purposes here:
+
+I can *post a subtree*, providing tags in the subtree as tags for the
+post.
+
+Additonal properties can be set as, guess what, properties of the node
+in a property drawer, i.e. using the same names as the above "buffer
+variables", (I think that's what they mean.)
+
+Dating of the whole shebang needs to be done with a dedicated property
+(post_date) otherwise various other timestamps in the subtree will be used.
+*** What happens when you see there's more advanced stuff you're too tired to figure out
+- You might need to deal with source code blocks
+- you can manage the whole shebang by deleting pages/posts
+- you can edit from a dedicated org2blog mode buffer.
+- you can upload images simply by including links (with file://url
+  details still to be reckoned with)
+- the "dashboard" of the org2blog mode blog is available 
+
+
+
