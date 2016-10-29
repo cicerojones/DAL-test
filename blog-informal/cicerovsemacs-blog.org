@@ -2,7 +2,7 @@
 * Posts
 * Tags
 * Categories
-* pasted xml content
+* pasted xml content of wordpress blog writing
 ** 
 <content:encoded><![CDATA[Trained as a classical French Horn player,
 Will Orzo has worked as an instrumentalist, composer, music director

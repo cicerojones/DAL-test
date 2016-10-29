@@ -1,0 +1,17 @@
+* git commands for cloning an existing repository
+- clone
+- branch
+- commit
+- push
+- remote
+* prerequisites--assuming a Mac
+- homebrew
+- git
+- bash/terminal skills
+- github account
+- command line tools for Mac
+- awareness of projects to work on
+- awareness of protocols and conventions
+- some skill with an existing code base or domain area
+- a sense of what you can uniquely (or not) contribute
+- can use the github pull request interface
